@@ -15,3 +15,10 @@ You can change
   - Form data are expected as JSON document. The JSON document can be read from a URL (HTTP GET), Page Item or database select.
 - **Destination filename**
   - Currently only the option "Save to file" is supported. The file name for the processed PDF file can be configured as static value.
+- **Other**
+  - The plugin has an option to list the names and types of all form fields of the source file. You can configure a region id (jQuery selector) where the data shall be listed. This feature can be useful for aiding the development process of the JSON document containing the form data. **Note:** When using the list option, no target file will be rendered.
+
+## Use the Plugin
+- Create a dynamic action on target page, e.g. firing on a button click and select the PDF Form Filler Plugin as action
+- Provide a PDF file containing form fields and configure the plugin for the right location
+- Provide JSON document containing form data and configure the plugin for the right location
