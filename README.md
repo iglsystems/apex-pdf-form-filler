@@ -2,7 +2,7 @@
 PDF Form Filler is a dynamic action plugin that can be used to fill PDF documents containing form fields (AcroForms) with pure JS. No additional software needed. It is based on pdfform.js (https://github.com/phihag/pdfform.js).
 
 ## Demo application
-Coming soon
+Try out the plugin at https://apex.oracle.com/pls/apex/iglsystems/r/apex-plugin-showroom/pdf-form-filler
 
 ## Install
 - Import plugin file "dynamic_action_plugin_de_igl-systems_pdfformfiller.sql" from plugin directory into your application
